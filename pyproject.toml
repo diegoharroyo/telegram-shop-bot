@@ -1,0 +1,18 @@
+[project]
+name = "telegram-shop-bot"
+version = "0.1.0"
+description = "Telegram bot for a small shop: menu and orders from a Google Sheet, FAQ, hand-off to a human."
+requires-python = ">=3.11"
+dependencies = [
+    "python-telegram-bot>=21",
+    "gspread>=6",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

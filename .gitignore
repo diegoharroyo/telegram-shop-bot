@@ -1,0 +1,5 @@
+.env
+*.json
+!.github/**
+.venv/
+__pycache__/
