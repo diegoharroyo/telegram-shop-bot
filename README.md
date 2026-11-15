@@ -80,4 +80,4 @@ The shop logic (FAQ matching, `/add` parsing, daily stats, hand-off routing) liv
 
 ---
 
-Built with AI coding tools; reviewed and tested by me. MIT license.
+MIT license.
